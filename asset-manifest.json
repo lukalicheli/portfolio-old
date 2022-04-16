@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/portfolio/static/js/main.8b40514d.js",
+    "main.css": "/portfolio/static/css/main.0a986712.css",
+    "main.js": "/portfolio/static/js/main.e232d65d.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/background-img.jpg": "/portfolio/static/media/background-img.539a8c5c50b965822984.jpg",
     "static/media/WorkDayPlanner.gif": "/portfolio/static/media/WorkDayPlanner.5b3f62cdcc4cafa34102.gif",
     "static/media/resume1.png": "/portfolio/static/media/resume1.fb033962ceb44fd1f26d.png",
     "static/media/happyhour.png": "/portfolio/static/media/happyhour.45fa9f41d28a96c7ca39.png",
@@ -13,12 +14,12 @@
     "static/media/notetaker.png": "/portfolio/static/media/notetaker.f8274cf996e4b862e784.png",
     "static/media/text-editor.png": "/portfolio/static/media/text-editor.e55e9c4fed61b20b8165.png",
     "index.html": "/portfolio/index.html",
-    "main.073c9b0a.css.map": "/portfolio/static/css/main.073c9b0a.css.map",
-    "main.8b40514d.js.map": "/portfolio/static/js/main.8b40514d.js.map",
+    "main.0a986712.css.map": "/portfolio/static/css/main.0a986712.css.map",
+    "main.e232d65d.js.map": "/portfolio/static/js/main.e232d65d.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.8b40514d.js"
+    "static/css/main.0a986712.css",
+    "static/js/main.e232d65d.js"
   ]
 }
