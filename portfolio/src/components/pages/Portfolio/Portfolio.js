@@ -268,7 +268,7 @@ export default function Portfolio() {
       <footer
         className="text-center"
         style={{
-          marginTop: "30px",
+          marginTop: "40px",
           width: "100%",
           color: "lightgrey",
           textAlign: "center",

@@ -68,8 +68,8 @@ export default function About() {
           </p>
         </div>
       </div>
-      <footer className="text-center" style={{position: "fixed", left: 0,
-  bottom: 0,
+      <footer className="text-center" style={{
+        marginTop: "30px",
   width: "100%",
   color: "lightgrey",
   textAlign: "center", 
