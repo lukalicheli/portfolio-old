@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ceb92ade.css",
-    "main.js": "/portfolio/static/js/main.79ea84c4.js",
+    "main.js": "/portfolio/static/js/main.702cbc24.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/WorkDayPlanner.gif": "/portfolio/static/media/WorkDayPlanner.5b3f62cdcc4cafa34102.gif",
     "static/media/background-img1.jpg": "/portfolio/static/media/background-img1.1e48e87e83e0a0c4ac7d.jpg",
@@ -15,11 +15,11 @@
     "static/media/text-editor.png": "/portfolio/static/media/text-editor.e55e9c4fed61b20b8165.png",
     "index.html": "/portfolio/index.html",
     "main.ceb92ade.css.map": "/portfolio/static/css/main.ceb92ade.css.map",
-    "main.79ea84c4.js.map": "/portfolio/static/js/main.79ea84c4.js.map",
+    "main.702cbc24.js.map": "/portfolio/static/js/main.702cbc24.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ceb92ade.css",
-    "static/js/main.79ea84c4.js"
+    "static/js/main.702cbc24.js"
   ]
 }
