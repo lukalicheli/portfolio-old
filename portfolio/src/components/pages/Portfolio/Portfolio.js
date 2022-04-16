@@ -15,6 +15,10 @@ const styles = {
   width: {
     width: "300px",
   },
+  fontColor: {
+    color: "#fff",
+    textDecoration: "none",
+  },
 };
 
 export default function Portfolio() {
@@ -261,6 +265,35 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
+      <footer
+        className="text-center"
+        style={{
+          marginTop: "30px",
+          width: "100%",
+          color: "lightgrey",
+          textAlign: "center",
+          fontSize: 25,
+        }}
+      >
+        <a style={styles.fontColor} href="mailto: lukalicheli@gmail.com">
+          lukalicheli@gmail.com
+        </a>{" "}
+        |{" "}
+        <a style={styles.fontColor} href="tel:732-586-4369">
+          732.586.4369
+        </a>{" "}
+        |{" "}
+        <a style={styles.fontColor} href="https://github.com/lukalicheli">
+          Github
+        </a>{" "}
+        |{" "}
+        <a
+          style={styles.fontColor}
+          href="https://www.linkedin.com/in/lukalicheli/"
+        >
+          LinkedIn
+        </a>
+      </footer>
     </div>
   );
 }
