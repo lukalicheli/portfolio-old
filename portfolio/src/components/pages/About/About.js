@@ -24,6 +24,7 @@ export default function About() {
         className="card mb-3 bg-transparent col-sm-8 mt-2 rounded bg-transparent"
       >
         <div className="card-body">
+          <br></br>
           <p
             className="card-text"
             style={{
