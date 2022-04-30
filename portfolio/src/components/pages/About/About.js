@@ -41,16 +41,7 @@ export default function About() {
               textAlign: "center",
             }}
           >
-            My name is Luka Licheli and I am currently a Massage Therapist
-            looking for a start on a new chapter in my career. I recently
-            graduated from San Diego City College with an Associate's in
-            Business Administration. I also took a handful of Computer Science
-            classes in San Diego State University, but decided a coding bootcamp
-            was the right choice for me, as it is more saturated with relevant
-            concepts and technology. With a certificate in Full Stack Web
-            Development from UCSD, I am pursuing an entry level position as a
-            Web Developer and plan to further advance my knowledge in the
-            technologies listed below.
+            I am a Full Stack Web Developer that is collaborative but also a strong, independent, problem solver. My strong suit is developing an intuitive user interface and never being afraid of a challenge. Documentation is my best friend, along with having relentless tenacity with debugging errors. A great testament to my adaptability and capacity to learn is the successful completion of a short, but vigorous Coding Bootcamp that I attended in UCSD.
           </p>
           <hr />
           <p
