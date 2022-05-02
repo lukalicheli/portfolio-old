@@ -24,7 +24,7 @@ export default function Resume() {
       <div className="d-flex justify-content-center">
         <div className="my-3">
           <a href={downloadResume} download>
-            <img src={resume1} style={styles.img} alt="Resume" />
+            
             <img src={resume3} style={styles.img} alt="Resume part 2" />
           </a>
         </div>
