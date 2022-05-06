@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ceb92ade.css",
-    "main.js": "/portfolio/static/js/main.74bf8e52.js",
+    "main.js": "/portfolio/static/js/main.e8b0c7a7.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/WorkDayPlanner.gif": "/portfolio/static/media/WorkDayPlanner.5b3f62cdcc4cafa34102.gif",
     "static/media/background-img1.jpg": "/portfolio/static/media/background-img1.1e48e87e83e0a0c4ac7d.jpg",
-    "static/media/resume1.png": "/portfolio/static/media/resume1.fb033962ceb44fd1f26d.png",
+    "static/media/Resume1.png": "/portfolio/static/media/Resume1.3baa5e575746efaa1d20.png",
+    "static/media/Resume2.png": "/portfolio/static/media/Resume2.a995ad226453fc330333.png",
     "static/media/happyhour.png": "/portfolio/static/media/happyhour.45fa9f41d28a96c7ca39.png",
     "static/media/profile.png": "/portfolio/static/media/profile.b9499a1be9246bc346d1.png",
-    "static/media/resume2.png": "/portfolio/static/media/resume2.b486be42aacf6f8b0d57.png",
-    "static/media/resume3.pdf": "/portfolio/static/media/resume3.31638ff27fdcb1fd73de.pdf",
+    "static/media/resume3.pdf": "/portfolio/static/media/resume3.af126923d8e4672edc3c.pdf",
     "static/media/password-generator.png": "/portfolio/static/media/password-generator.94b821f3527b0547b4fa.png",
     "static/media/notetaker.png": "/portfolio/static/media/notetaker.f8274cf996e4b862e784.png",
     "static/media/text-editor.png": "/portfolio/static/media/text-editor.e55e9c4fed61b20b8165.png",
     "index.html": "/portfolio/index.html",
     "main.ceb92ade.css.map": "/portfolio/static/css/main.ceb92ade.css.map",
-    "main.74bf8e52.js.map": "/portfolio/static/js/main.74bf8e52.js.map",
+    "main.e8b0c7a7.js.map": "/portfolio/static/js/main.e8b0c7a7.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ceb92ade.css",
-    "static/js/main.74bf8e52.js"
+    "static/js/main.e8b0c7a7.js"
   ]
 }
