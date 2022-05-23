@@ -4,7 +4,7 @@ import profile from "./profile.png";
 const styles = {
   fontColor: {
     color: "#fff",
-    textDecoration: "none"
+    textDecoration: "none",
   },
 };
 
@@ -41,7 +41,14 @@ export default function About() {
               textAlign: "center",
             }}
           >
-            I am a Full Stack Web Developer that is collaborative but also a strong, independent, problem solver. My strong suit is developing an intuitive user interface and never being afraid of a challenge. Documentation is my best friend, along with having relentless tenacity with debugging errors. A great testament to my adaptability and capacity to learn is the successful completion of a short, but vigorous Coding Bootcamp that I attended in UCSD.
+            I am a Full Stack Web Developer that is collaborative, but also a
+            strong, independent, problem solver. Having used React paired with
+            Material-UI Library, I have experience developing an intuitive user
+            interface. I utilized reusable components and virtual DOM to give
+            the app a mobile feel and used MongoDB and GraphQL to give it
+            extensive functionality. Documentation is my best friend, along with
+            having relentless tenacity with debugging errors in order to create
+            a smooth performing and robust application.
           </p>
           <hr />
           <p
@@ -59,31 +66,35 @@ export default function About() {
           </p>
         </div>
       </div>
-      <footer className="text-center" style={{
-        marginTop: "30px",
-  width: "100%",
-  color: "lightgrey",
-  textAlign: "center", 
-  fontSize: 25}}>
-    <a style={styles.fontColor} href="mailto: lukalicheli@gmail.com">
-      lukalicheli@gmail.com
-    </a>{" "}
-    |{" "}
-    <a style={styles.fontColor} href="tel:732-586-4369">
-      732.586.4369
-    </a>{" "}
-    |{" "}
-    <a style={styles.fontColor} href="https://github.com/lukalicheli">
-      Github
-    </a>{" "}
-    |{" "}
-    <a
-      style={styles.fontColor}
-      href="https://www.linkedin.com/in/lukalicheli/"
-    >
-      LinkedIn
-    </a>
-  </footer>
+      <footer
+        className="text-center"
+        style={{
+          marginTop: "30px",
+          width: "100%",
+          color: "lightgrey",
+          textAlign: "center",
+          fontSize: 25,
+        }}
+      >
+        <a style={styles.fontColor} href="mailto: lukalicheli@gmail.com">
+          lukalicheli@gmail.com
+        </a>{" "}
+        |{" "}
+        <a style={styles.fontColor} href="tel:732-586-4369">
+          732.586.4369
+        </a>{" "}
+        |{" "}
+        <a style={styles.fontColor} href="https://github.com/lukalicheli">
+          Github
+        </a>{" "}
+        |{" "}
+        <a
+          style={styles.fontColor}
+          href="https://www.linkedin.com/in/lukalicheli/"
+        >
+          LinkedIn
+        </a>
+      </footer>
     </div>
   );
 }
