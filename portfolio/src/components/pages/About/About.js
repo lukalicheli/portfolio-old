@@ -61,7 +61,7 @@ export default function About() {
           >
             {" "}
             HTML : CSS : JavaScript : React : Express : NodeJs <br /> Sequelize
-            : MySQL : NoSQL : MongoDB : Mongoose : <br />
+            : MySQL : NoSQL : MongoDB : Mongoose : JWT : <br />
             Insomnia : Apollo Sandbox : WebPack
           </p>
         </div>
