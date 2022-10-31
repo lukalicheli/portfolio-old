@@ -3,7 +3,9 @@ import happyhour from "./happyhour.png";
 import notetaker from "./notetaker.png";
 import planner from "./WorkDayPlanner.gif";
 import text from "./text-editor.png";
+import text2 from "./text-editor2.png";
 import password from "./password-generator.png";
+import ers from "./ers-app.png";
 
 import { Button } from "react-bootstrap";
 
@@ -27,7 +29,203 @@ export default function Portfolio() {
       <h1 style={{ color: "white", textAlign: "center", marginBottom: "40px" }}>
         Portfolio
       </h1>
-      {/* Note Taker */}
+
+      {/* Happy Hour */}
+      <div className="col-sm-4 shadow p-2 mx-1 bg-transparent rounded mt-1">
+        <div className="bg-transparent" style={styles.shadow}>
+          <a href="https://desolate-earth-02940.herokuapp.com/">
+            <img src={happyhour} alt="happyhour" className="card-img-top" />
+          </a>
+          <div className="card-body">
+            <p className="card-text">
+              A happy hour finder application that lets users to login and persist their favorite deals. Also has the functionality to add and delete reviews.
+            </p>
+            <hr />
+            <p className="text-center">
+              Javascript | React | MongoDB | GraphQL | NodeJS
+            </p>
+
+            <div style={{ display: "flex", justifyContent: "space-around" }}>
+              <Button
+                style={{
+                  width: "40%",
+                  backgroundColor: "orange",
+                  color: "black",
+                  fontWeight: "bold",
+                }}
+                variant="outline-dark"
+                className="d-block mb-2"
+                href="https://desolate-earth-02940.herokuapp.com/"
+                target="_blank"
+              >
+                DEMO
+              </Button>
+              <Button
+                style={{
+                  width: "40%",
+                  backgroundColor: "aqua",
+                  color: "black",
+                  fontWeight: "bold",
+                }}
+                variant="outline-dark"
+                className="d-block mb-2"
+                href="https://github.com/lukalicheli/Happy-Hour"
+              >
+                REPO
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       {/* ERS Application */}
+       <div className="col-sm-4 shadow p-2 mx-1 bg-transparent rounded mt-1">
+        <div className="bg-transparent" style={styles.shadow}>
+          <a href="https://lukalicheli.github.io/password-generator/">
+            <img
+              src={ers}
+              alt="ERS Application"
+              className="card-img-top"
+            />
+          </a>
+          <div className="card-body">
+            <p className="card-text">
+              An expense reimbursement application that employers can use to
+              keep track of users and reimbursements. Has user login
+              functionality as well as CRUD operations for users and
+              reimbursements.
+            </p>
+            <hr />
+            <p className="text-center">Java | Spring | Angular</p>
+
+            <div style={{ display: "flex", justifyContent: "space-around" }}>
+              <Button
+                style={{
+                  width: "40%",
+                  backgroundColor: "orange",
+                  color: "black",
+                  fontWeight: "bold",
+                }}
+                variant="outline-dark"
+                className="d-block mb-2"
+                href="https://github.com/lukalicheli/reimbursement-api"
+              >
+                API
+              </Button>
+              <Button
+                style={{
+                  width: "40%",
+                  backgroundColor: "aqua",
+                  color: "black",
+                  fontWeight: "bold",
+                }}
+                variant="outline-dark"
+                className="d-block mb-2"
+                href="https://github.com/lukalicheli/reimbursement-frontend"
+              >
+                UI
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Text Editor */}
+      <div className="col-sm-4 shadow p-2 mx-1 bg-transparent rounded mt-1">
+        <div className="bg-transparent" style={styles.shadow}>
+          <a href="https://hybrid-text-editor.herokuapp.com/">
+            <img src={text2} alt="text" className="card-img-top" />
+          </a>
+          <div className="card-body">
+            <p className="card-text">
+              A simple text editor that you can download to your desktop to use
+              offline.
+            </p>
+            <hr />
+            <p className="text-center">
+              NodeJS | Express | Babel | Webpack | Workbox
+            </p>
+
+            <div style={{ display: "flex", justifyContent: "space-around" }}>
+              <Button
+                style={{
+                  width: "40%",
+                  backgroundColor: "orange",
+                  color: "black",
+                  fontWeight: "bold",
+                }}
+                variant="outline-dark"
+                className="d-block mb-2"
+                href="https://hybrid-text-editor.herokuapp.com/"
+              >
+                DEMO
+              </Button>
+              <Button
+                style={{
+                  width: "40%",
+                  backgroundColor: "aqua",
+                  color: "black",
+                  fontWeight: "bold",
+                }}
+                variant="outline-dark"
+                className="d-block mb-2"
+                href="https://github.com/lukalicheli/Text-Editor"
+              >
+                REPO
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Work Day Scheduler */}
+      <div className="col-sm-4 shadow p-2 mx-1 bg-transparent rounded mt-1">
+        <div className="bg-transparent" style={styles.shadow}>
+          <a href="https://lukalicheli.github.io/work-day-planner/">
+            <img src={planner} alt="planner" className="card-img-top" />
+          </a>
+          <div className="card-body">
+            <p className="card-text">
+              A single day planning app that lets you save hourly reminders.
+              Tabs colored according to hour.
+            </p>
+            <hr />
+            <p className="text-center">HTML | CSS | Javascript | jQuery </p>
+
+            <div style={{ display: "flex", justifyContent: "space-around" }}>
+              <Button
+                style={{
+                  width: "40%",
+                  backgroundColor: "orange",
+                  color: "black",
+                  fontWeight: "bold",
+                }}
+                variant="outline-dark"
+                className="d-block mb-2"
+                href="https://lukalicheli.github.io/work-day-planner/"
+                target="_blank"
+              >
+                DEMO
+              </Button>
+              <Button
+                style={{
+                  width: "40%",
+                  backgroundColor: "aqua",
+                  color: "black",
+                  fontWeight: "bold",
+                }}
+                variant="outline-dark"
+                className="d-block mb-2"
+                href="https://github.com/lukalicheli/work-day-planner"
+              >
+                REPO
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Note Taker
       <div className="col-sm-3 shadow p-2 mx-3 bg-transparent rounded mt-1">
         <div className="bg-transparent" style={styles.shadow}>
           <a href="https://note-taker-619.herokuapp.com/notes">
@@ -74,197 +272,13 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      {/* Work Day Scheduler */}
-      <div className="col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1">
-        <div className="bg-transparent" style={styles.shadow}>
-          <a href="https://lukalicheli.github.io/work-day-planner/">
-            <img src={planner} alt="planner" className="card-img-top" />
-          </a>
-          <div className="card-body">
-            <p className="card-text">
-              A single day planning app that lets you save hourly reminders.
-              Tabs colored according to hour.
-            </p>
-            <hr />
-            <p className="text-center">HTML | CSS | Javascript | jQuery </p>
+     
 
-            <div style={{ display: "flex", justifyContent: "space-around" }}>
-              <Button
-                style={{
-                  width: "40%",
-                  backgroundColor: "orange",
-                  color: "black",
-                  fontWeight: "bold",
-                }}
-                variant="outline-dark"
-                className="d-block mb-2"
-                href="https://lukalicheli.github.io/work-day-planner/"
-                target="_blank"
-              >
-                DEMO
-              </Button>
-              <Button
-                style={{
-                  width: "40%",
-                  backgroundColor: "aqua",
-                  color: "black",
-                  fontWeight: "bold",
-                }}
-                variant="outline-dark"
-                className="d-block mb-2"
-                href="https://github.com/lukalicheli/work-day-planner"
-              >
-                REPO
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
-      {/* Password Generator */}
-      <div className="col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1">
-        <div className="bg-transparent" style={styles.shadow}>
-          <a href="https://lukalicheli.github.io/password-generator/">
-            <img src={password} alt="password" className="card-img-top" />
-          </a>
-          <div className="card-body">
-            <p className="card-text">
-              A simple password generator. Uppercase/Lowercase, Numbers, Special
-              Characters.
-            </p>
-            <hr />
-            <p className="text-center">HTML | CSS | Javascript</p>
 
-            <div style={{ display: "flex", justifyContent: "space-around" }}>
-              <Button
-                style={{
-                  width: "40%",
-                  backgroundColor: "orange",
-                  color: "black",
-                  fontWeight: "bold",
-                }}
-                variant="outline-dark"
-                className="d-block mb-2"
-                href="https://lukalicheli.github.io/password-generator/"
-              >
-                DEMO
-              </Button>
-              <Button
-                style={{
-                  width: "40%",
-                  backgroundColor: "aqua",
-                  color: "black",
-                  fontWeight: "bold",
-                }}
-                variant="outline-dark"
-                className="d-block mb-2"
-                href="https://github.com/lukalicheli/password-generator"
-              >
-                REPO
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Text Editor */}
-      <div className="col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1">
-        <div className="bg-transparent" style={styles.shadow}>
-          <a href="https://hybrid-text-editor.herokuapp.com/">
-            <img src={text} alt="text" className="card-img-top" />
-          </a>
-          <div className="card-body">
-            <p className="card-text">
-              A simple text editor that you can download to your desktop to use
-              offline.
-            </p>
-            <hr />
-            <p className="text-center">
-              NodeJS | Express | Babel | Webpack | Workbox
-            </p>
-
-            <div style={{ display: "flex", justifyContent: "space-around" }}>
-              <Button
-                style={{
-                  width: "40%",
-                  backgroundColor: "orange",
-                  color: "black",
-                  fontWeight: "bold",
-                }}
-                variant="outline-dark"
-                className="d-block mb-2"
-                href="https://hybrid-text-editor.herokuapp.com/"
-              >
-                DEMO
-              </Button>
-              <Button
-                style={{
-                  width: "40%",
-                  backgroundColor: "aqua",
-                  color: "black",
-                  fontWeight: "bold",
-                }}
-                variant="outline-dark"
-                className="d-block mb-2"
-                href="https://github.com/lukalicheli/Text-Editor"
-              >
-                REPO
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Happy Hour */}
-      <div className="col-sm-3 shadow p-2 mx-1 bg-transparent rounded mt-1">
-        <div className="bg-transparent" style={styles.shadow}>
-          <a href="https://desolate-earth-02940.herokuapp.com/">
-            <img src={happyhour} alt="happyhour" className="card-img-top" />
-          </a>
-          <div className="card-body">
-            <p className="card-text">
-              A mobile app that lets you search by zipcode for nearby happy hour
-              deals.
-            </p>
-            <hr />
-            <p className="text-center">
-              React | Express | MongoDB | GraphQL | NodeJS
-            </p>
-
-            <div style={{ display: "flex", justifyContent: "space-around" }}>
-              <Button
-                style={{
-                  width: "40%",
-                  backgroundColor: "orange",
-                  color: "black",
-                  fontWeight: "bold",
-                }}
-                variant="outline-dark"
-                className="d-block mb-2"
-                href="https://desolate-earth-02940.herokuapp.com/"
-                target="_blank"
-              >
-                DEMO
-              </Button>
-              <Button
-                style={{
-                  width: "40%",
-                  backgroundColor: "aqua",
-                  color: "black",
-                  fontWeight: "bold",
-                }}
-                variant="outline-dark"
-                className="d-block mb-2"
-                href="https://github.com/lukalicheli/Happy-Hour"
-              >
-                REPO
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div>
       <footer
         className="text-center"
         style={{

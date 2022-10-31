@@ -35,7 +35,7 @@ export default function About() {
           <p
             className="card-text"
             style={{
-              color: "lightgrey",
+              color: "white",
               fontSize: "large",
               padding: "10px",
               textAlign: "center",
@@ -46,30 +46,34 @@ export default function About() {
             Material-UI Library, I have experience developing an intuitive user
             interface. I utilized reusable components and virtual DOM to give
             the app a mobile feel and used MongoDB and GraphQL to give it
-            extensive functionality. Documentation is my best friend, along with
-            having relentless tenacity with debugging errors in order to create
-            a smooth performing and robust application.
+            extensive functionality. With my time at Revature, I have also
+            developed my back-end skills, using Java, Spring, AWS, and
+            PostgreSQL paired with DBeaver, to build APIs that can function both
+            locally and on the web. Currently, I am learning Angular to further
+            solidify my front-end skills.
           </p>
           <hr />
           <p
             className="card-text"
             style={{
-              color: "lightgrey",
+              color: "white",
               textAlign: "center",
               fontSize: "large",
             }}
           >
             {" "}
-            HTML : CSS : JavaScript : React : Express : NodeJs <br /> Sequelize
-            : MySQL : NoSQL : MongoDB : Mongoose : JWT : <br />
-            Insomnia : Apollo Sandbox : WebPack
+            Javascript, Java 8/11, React, Angular, jQuery, MUI Library, Handlebars, HTML, CSS <br />
+            Object Oriented Programming, MVC, RESTful API, Data Structures and Designs<br />
+            SQL, MySQL, PostgresQL, GraphQL, MongoDB, Compass, Insomnia, DBeaver, AWS, DevOps<br />
+            Spring, NodeJS, Express, Axios, Tomcat Server, HTTP Servlets, Apollo Server <br />
+            Git, GitHub, GitLab, Bash/Shell, Terminal<br />
           </p>
         </div>
       </div>
       <footer
         className="text-center"
         style={{
-          marginTop: "30px",
+          marginTop: "50px",
           width: "100%",
           color: "lightgrey",
           textAlign: "center",

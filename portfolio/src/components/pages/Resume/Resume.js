@@ -1,7 +1,6 @@
 import React from "react";
-import downloadResume from "./resume3.pdf";
-import resume1 from "./Resume1.png";
-import resume2 from "./Resume2.png";
+import downloadResume from "./resume.pdf";
+import resume from "./Resume.png";
 
 
 const styles = {
@@ -24,8 +23,8 @@ export default function Resume() {
       <div className="d-flex justify-content-center">
         <div className="my-3">
           <a href={downloadResume} download>
-          <img src={resume1} style={styles.img} alt="Resume part 1" />
-            <img src={resume2} style={styles.img} alt="Resume part 2" />
+          <img src={resume} style={styles.img} alt="Resume part 1" />
+           
           </a>
         </div>
       </div>

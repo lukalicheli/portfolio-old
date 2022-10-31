@@ -9,10 +9,10 @@ export default function NavBar({ currentPage, handlePageChange }) {
   const [value, setValue] = React.useState(0);
 
   return (
-      <div style={{display: "flex", justifyContent: "space-around", flexWrap: "wrap", marginBottom: "50px", marginTop: "25px"}}>
+      <div style={{display: "flex", backgroundImage: "linear-gradient(rgba(0,0,0,.3) ,rgba(0,0,0,.5))", justifyContent: "space-around", flexWrap: "wrap", marginBottom: "50px", paddingBottom: "20px"}}>
           
     <div style={{display: "flex"}}>
-    <h1 style={{display: "flex", marginTop: "30px", marginLeft: "40px", color: "white", fontSize: 55, color: "lightgrey" }}>Luka Licheli</h1>
+    <h1 style={{display: "flex", marginTop: "20px", marginLeft: "40px", color: "white", fontSize: 55, color: "lightgrey" }}>Luka Licheli</h1>
     </div>
     <div>
       <BottomNavigation
