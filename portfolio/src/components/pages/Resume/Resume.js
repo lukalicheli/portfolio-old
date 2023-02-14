@@ -1,6 +1,6 @@
 import React from "react";
-import downloadResume from "./resume.pdf";
-import resume from "./Resume.png";
+import downloadResume from "./updatedResume.pdf";
+import resume from "./resume4.png";
 
 
 const styles = {

@@ -38,7 +38,7 @@ export default function Portfolio() {
           </a>
           <div className="card-body">
             <p className="card-text">
-              A happy hour finder application that lets users to login and persist their favorite deals. Also has the functionality to add and delete reviews.
+              A happy hour finder application that lets users to login and persist their favorite deals. Also has the functionality to add and delete reviews. (Repo Only)
             </p>
             <hr />
             <p className="text-center">
